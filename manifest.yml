@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: sakata-node-red-app
+  host: sakata-node-red-app
+  disk_quota: 1024M
+  services:
+  - sakata-node-red-app-cloudantNoSQLDB
